@@ -1,6 +1,7 @@
 import gsap from "gsap"
 import { ScrollTrigger, SplitText } from "gsap/all"
-import Navbar from "./components/Navbar.jsx";
+import Navbar from "./components/NavBar";
+
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
